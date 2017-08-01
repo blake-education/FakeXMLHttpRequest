@@ -16,6 +16,7 @@ var _Event = function Event(type, bubbles, cancelable, target) {
   this.bubbles = bubbles;
   this.cancelable = cancelable;
   this.target = target;
+  this.currentTarget = target;
 };
 
 _Event.prototype = {
